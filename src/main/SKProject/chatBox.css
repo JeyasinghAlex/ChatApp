@@ -1,0 +1,42 @@
+.chatcls {
+    margin-top: 30px;
+    height: 70%;
+    width: 30%;
+    position:absolute; right: 200px;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+::placeholder { 
+    color:white;
+    opacity: 1; 
+  }
+
+  #txtid:focus {
+    outline: none !important;
+    border:1px solid white;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+#txtid {
+    background-color: rgb(1, 14, 15);
+    border: white;
+    position: absolute; top: 427px;
+    position:absolute; left: 30px;
+    height: 5%;
+    width: 55%;
+    font-size: 17px;
+    color: white;
+}
+
+  #sbmt {
+    position: absolute; top: 424px;
+    position:absolute; right: 50px;
+    background-color:  rgb(1, 14, 15);
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+     border-radius: 10px;
+    cursor:pointer;
+  }
+ 
